@@ -1,0 +1,32 @@
+#root {
+    background-color: rgba(221, 221, 221, 0.7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joke-container {
+    max-width: 400px;
+    min-width: 400px;
+    padding: 25px;
+}
+
+.joke-item {
+    padding-bottom: 25px;
+}
+
+.control-handler {
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 25px;
+    justify-content: flex-end;
+}
+
+.data-display {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
